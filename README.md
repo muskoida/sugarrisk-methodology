@@ -35,7 +35,7 @@ laboratory testing and professional evaluation.
 
 The interactive, educational version of the tool is available at:
 
-https://sugarrisk.com
+[https://sugarrisk.com](https://sugarrisk.com)
 
 ## References
 
