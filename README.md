@@ -16,7 +16,7 @@ The project is inspired by the interactive health calculators available at [Suga
 The SugarRisk website includes six interactive tools:
 
 ### 1. Insulin Calculator
-Explore calculations related to fasting glucose, insulin measurements, and metabolic health indicators.
+Explore educational calculations involving insulin-to-carbohydrate ratios (ICR), insulin sensitivity factors (ISF), blood glucose correction components, and insulin on board (IOB). The module demonstrates mathematical formulas without providing insulin dosing recommendations.
 
 ### 2. HOMA-IR Calculator
 Calculate the Homeostatic Model Assessment of Insulin Resistance (HOMA-IR) using fasting glucose and insulin values.
