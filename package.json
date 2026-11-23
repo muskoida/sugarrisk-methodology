@@ -1,1 +1,15 @@
 
+{
+  "name": "sugarrisk-methodology",
+  "version": "0.1.0",
+  "description": "Open-source JavaScript utilities for metabolic health calculations.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+
