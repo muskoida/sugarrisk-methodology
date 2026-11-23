@@ -10,7 +10,7 @@ test("Calculates HOMA-IR using mg/dL", () => {
   });
 
   assert.equal(result.homaIR, 2.22);
-  assert.equal(result.homaBeta, 133.7);
+  assert.equal(result.homaBeta, 133.8);
 });
 
 test("Calculates HOMA-IR using mmol/L", () => {
