@@ -44,22 +44,46 @@ Explore educational information about blood glucose measurements and commonly us
 - Provide practical examples and automated tests.
 - Make health-related calculations easier to understand.
 
+
 ## Development Status
 
-**Work in progress**
+**Six JavaScript modules implemented with automated tests.**
 
-The interactive calculators are available on SugarRisk.com.
+The repository contains standalone JavaScript utilities extracted and adapted from the calculation methodologies used on SugarRisk.com.
 
-This repository is being expanded to include standalone JavaScript implementations, documentation, and tests.
+### Available Modules
 
-Planned modules include:
+| Module | Source | Tests |
+|---|---|---|
+| HOMA-IR Calculator | `src/homa-ir.js` | `tests/homa-ir.test.js` |
+| QUICKI Calculator | `src/quicki.js` | `tests/quicki.test.js` |
+| A1C / eAG Converter | `src/a1c-converter.js` | `tests/a1c-converter.test.js` |
+| Glycemic Load Calculator | `src/glycemic-load.js` | `tests/glycemic-load.test.js` |
+| Insulin Calculator | `src/insulin-calculator.js` | `tests/insulin-calculator.test.js` |
+| Blood Sugar Checker | `src/blood-sugar-checker.js` | `tests/blood-sugar-checker.test.js` |
 
-- HOMA-IR
-- QUICKI
-- HbA1c / eAG conversion
-- Glycemic Load
-- Insulin-related calculations
-- Blood glucose reference utilities
+### Testing
+
+The project uses the built-in Node.js test runner.
+
+Run all tests locally:
+
+```bash
+npm test
+```
+
+Automated tests also run through GitHub Actions.
+
+### Technical Features
+
+- Pure JavaScript ES modules
+- No external runtime dependencies
+- Input validation and error handling
+- Support for common glucose measurement units
+- Transparent mathematical formulas
+- Automated unit tests
+- Educational, non-diagnostic outputs
+
 
 ## Try the Interactive Calculators
 
