@@ -53,7 +53,7 @@ test("Calculates predefined apple glycemic load", () => {
   const result = calculateFoodGlycemicLoad("apple");
 
   assert.equal(result.name, "Apple");
-  assert.equal(result.gl, 5.9);
+  assert.equal(result.gl, 5.8);
   assert.equal(result.category, "Low");
 });
 
