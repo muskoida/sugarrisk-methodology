@@ -115,4 +115,10 @@ As the project develops, additional calculation modules and examples will be add
 
 ## License
 
-An open-source license will be added before the reusable JavaScript modules are released.
+This project is licensed under the MIT License.
+
+You are free to use, modify, and distribute the source code, including for commercial purposes, provided that the original copyright notice and license are retained.
+
+See the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2026 muskoida.
